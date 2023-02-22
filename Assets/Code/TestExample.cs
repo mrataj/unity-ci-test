@@ -7,13 +7,13 @@ namespace Code
         [Test]
         public void TestSuccess()
         {
-            Assert.IsTrue(true);
+            Assert.IsTrue(true, "Something is wrong");
         }
 
         [Test]
         public void TestFail()
         {
-            Assert.IsTrue(false);
+            Assert.IsTrue(false, "Something is wrong");
         }
     }
 }
